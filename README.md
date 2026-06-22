@@ -44,3 +44,44 @@
 "The generated bar chart reveals a sharp 14% contraction in municipal business tax collections centered in fiscal year 2024. While the automated AI summary insight assumed this drop was caused by standard macroeconomic business closures, human cross-referencing of local policy changes reveals a different story.
 
 This drop directly matches the grace period timeline of a newly implemented regional tax amnesty ordinance and localized business registration restructuring. This proves that LGUs need human financial analysts to properly separate structural policy transitions from actual economic downturns."
+
+---
+---
+
+# The Davao LGU Public Health Announcement Prompt System
+
+---
+
+## 1. System Prompt Template (V3 – Final Optimized)
+
+"Act as a Public Health Communications Officer working under the City Health Office of Davao del Norte. Your objective is to draft a 250-word community health announcement script for barangay-level dissemination.
+
+**Context:** Barangay health workers in rural Davao del Norte are conducting door-to-door dengue prevention campaigns during the rainy season. Residents in sitios along the Tagum-Pantukan corridor have low health literacy and limited access to digital media.
+
+**Constraints:** Use a warm, community-centered tone in plain Filipino-English (no medical jargon). Do NOT reference national DOH statistics or global health data — focus entirely on local barangay landmarks and community health volunteers by name role (e.g., 'your Barangay Health Worker'). Do not use clinical or bureaucratic language.
+
+**Format:** Output in clear Markdown with exactly three sections under the headings: '### Alerto', '### Ano ang Gagawin', and '### Makipag-ugnayan'."
+
+---
+
+## 2. Prompt Battle Table
+
+| Version | Prompt Modifier Added | Output Quality Reflection |
+|---------|----------------------|--------------------------|
+| V1 | "Write a dengue prevention announcement for Davao." | Too broad. Output was generic and referenced national DOH campaign slogans irrelevant to barangay-level audiences. Tone was formal and distant. |
+| V2 | Added barangay health worker persona and rainy season context. | Better, but the language remained overly clinical and used unfamiliar medical terms like 'vector control' and 'larval surveillance' that rural residents would not understand. |
+| V3 | Added Filipino-English plain language constraint, local corridor reference, three-section format, and explicit ban on national statistics. | Target hit. Output was warm, hyper-localized to Davao del Norte, and structured for easy reading aloud by barangay health workers during door-to-door visits. |
+
+---
+
+## 3. Visual Branding Asset
+
+- **Engine Used:** Canva Magic Media / DALL-E 3
+- **Visual Prompt:** "A flat minimalist vector logo of a barangay health worker holding a megaphone, standing in front of a rural Mindanao landscape with coconut trees and a stilted wooden house. Clean lines, no gradients. Color palette: deep green, white, and warm yellow. Style: Philippine government infographic poster."
+- **Design Constraints Applied:** No photorealistic rendering. No Western suburban settings. No generic red-cross medical symbols. Grounded entirely in Mindanao rural visual identity.
+- **Asset Description:** The icon is intended for use on tarpaulin health advisories and barangay bulletin boards across Davao del Norte municipalities.
+
+---
+
+*Submitted to: Prompt Engineering (Text & Image Generation) | Course: 99-006 GE 0000 Summer 2026*
+*Role: Digital Solutions Architect — LGU Technical Working Group, Davao Region*
